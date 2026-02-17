@@ -2,7 +2,7 @@ name: GitHub Box
 
 on:
   schedule:
-    - cron: "0 0 * * 0"  # Dimanche à minuit (1x/semaine)
+    - cron: "0 0 * * 0"
   push:
     branches: master
   workflow_dispatch:
